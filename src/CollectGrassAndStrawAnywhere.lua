@@ -1,5 +1,6 @@
--- Collect Grass Anywhere
+-- Collect Grass And Straw Anywhere
 -- Copyright Heavy Metal Gaming (aka Dylan Myers) <gamer.hm.2021@gmail.com>
+-- GitHub: https://github.com/Dylan-M/FS22_CollectGrassAndStrawAnywhere
 -- Based somewhat on, and inspired by, the Collect Straw At Missions mod by derSchreiner
 
 CollectGrassAndStrawAnywhere = {};
