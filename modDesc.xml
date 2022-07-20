@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="66">
+<version>1.0.0.0</version>
+<author>Heavy Metal Gaming</author>
+
+    <title>
+        <en>Collect Grass and Straw Anywhere</en>
+        <de>Sammle überall Gras und Stroh</de>
+    </title>
+
+    <description>
+        <en><![CDATA[Allow the collection of grasses and straw anywhere.]]></en>
+        <de><![CDATA[Lassen Sie das Sammeln von Gräsern und Stroh überall zu.]]></de>
+    </description>
+
+    <multiplayer supported="true" />
+    <iconFilename>modIcon.dds</iconFilename>
+    <extraSourceFiles>
+        <sourceFile filename="src/CollectGrassAndStraw.lua" />
+    </extraSourceFiles>
+</modDesc>
