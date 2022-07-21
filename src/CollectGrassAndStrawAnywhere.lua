@@ -11,7 +11,11 @@ end;
 
 function CollectGrassAndStrawAnywhere:getIsMissionWorkAllowed(superFunc, farmId, x, z, workAreaType)
     return superFunc(self, farmId, x, z, workAreaType) or
-        (workAreaType == WorkAreaType.FORAGEWAGON or workAreaType == WorkAreaType.BALER or workAreaType == WorkAreaType.PELLETIZER)
+        (workAreaType == WorkAreaType.FORAGEWAGON
+        or workAreaType == WorkAreaType.TEDDER
+        or workAreaType == WorkAreaType.WINDROWER
+        or workAreaType == WorkAreaType.BALER
+        or workAreaType == WorkAreaType.PELLETIZER)
 end
 
 addModEventListener(CollectGrassAndStrawAnywhere);
